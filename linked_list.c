@@ -21,6 +21,20 @@ void print_list(List l) {
   printf("\n");
 }
 
+/*
+ * Print the length of the list l
+ */
+void print_list_length(List l) {
+
+}
+
+/*
+ * Print out the i-th element of l
+ */
+void print_list_element(List l, int i) {
+
+}
+
 int main() {
   Node n1, n2, n3;
   List list;
@@ -34,6 +48,8 @@ int main() {
   list.head = &n1;
 
   print_list(list);
+  print_list_length(list);
+  print_list_element(list, 0);
 
   return EXIT_SUCCESS;
 }
